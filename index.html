@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vijay | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <h2 class="logo">Vijay</h2>
+        <button class="menu-btn" id="menuBtn">☰</button>
+        <ul id="navMenu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="themeToggle">🌙</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="about" class="hero">
+        <img src="vijay.jpg" alt="Vijay" class="profile-img" />
+        <h1>Hi, I'm <span class="accent">Vijay</span></h1>
+        <p class="tagline">Frontend Developer</p>
+        <p class="bio">
+            I build clean, responsive, and user-friendly web interfaces
+            using HTML, CSS, and JavaScript.
+        </p>
+        <div class="cta-buttons">
+            <a href="#projects" class="btn primary">View Work</a>
+            <a href="#contact" class="btn secondary">Contact</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>A responsive personal portfolio using HTML, CSS, and JavaScript.</p>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Todo App</h3>
+                <p>Task manager with local storage support for persistence.</p>
+                <div class="tags">
+                    <span>JavaScript</span>
+                    <span>LocalStorage</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <h2>Achievements</h2>
+        <div class="cards">
+            <div class="card achievement">
+                <span class="badge gold">🏆 1st Place</span>
+                <h3>Quantbit Hackathon</h3>
+                <p>Winner – Secured 1st place for developing innovative technical solution.</p>
+            </div>
+            <div class="card achievement">
+                <span class="badge bronze">🥉 2nd Runner-up</span>
+                <h3>CODEBITS 3.0 Hackathon (2025)</h3>
+                <p>Awarded among 100+ teams for innovative solution.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Get In Touch</h2>
+        <p class="contact-text">Have a project in mind? Let's talk!</p>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit" class="btn primary">Send Message</button>
+        </form>
+        <div class="socials">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Vijay. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
