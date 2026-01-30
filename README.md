@@ -27,4 +27,4 @@ Just open `index.html` in your browser. That's it.
 
 ---
 
-Made with ☕ by Vijay
+
